@@ -32,7 +32,7 @@ def render_html_report(
 <html lang="ru">
 <head>
 <meta charset="utf-8"/>
-<title>{html.escape(title)}</title>
+<title>AIDA Report — {html.escape(title)}</title>
 <style>
 body {{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -78,6 +78,7 @@ td, th {{
   <div><b>Корпус:</b> {total_posts:,} публикаций с агрегированными комментариями.</div>
   <div><b>Единица анализа:</b> текст поста с повышенным весом и агрегированный текст комментариев.</div>
   <div><b>Объём после очистки и нормализации:</b> {total_norm_tokens:,} токенов.</div>
+  <div class="small">Report generated with <b>AIDA</b> (AI Discourse Analyzer).</div>
 </div>
 
 <h2>Сводка по кластерам</h2>
