@@ -2,6 +2,8 @@
 
 **AIDA** — краткое имя пакета **AI Discourse Analyzer**.
 
+[демо отчета](https://frantsuzova.github.io/ai-discourse-analyzer/)
+
 `ai-discourse-analyzer` — это Python-пакет для корпусного анализа AI-дискурса в Telegram и других текстовых массивах со сходной структурой.
 
 Пакет предназначен для задач, где требуется:
